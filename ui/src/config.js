@@ -54,3 +54,4 @@ export default {
 // 2025-09-22T15:04:00 feat: calendar sync
 // 2025-11-22T20:23:00 refactor: contact graph
 // 2026-02-05T20:11:00 fix: priority classifier
+// 2025-10-02T16:43:00 feat: batch processor
