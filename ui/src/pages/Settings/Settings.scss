@@ -1,0 +1,84 @@
+#settings {
+
+    .message {
+        margin-bottom: 24px;
+    }
+    
+    .warning-message {
+        width: 100%;
+        margin-top: 12px;
+        .message {
+            margin-bottom: 0;
+        }
+    }
+
+    .table-container table {
+        border-spacing: 0 12px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .time-of-interest {
+        line-height: 48px;
+    }
+
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 24% 24% 24% 24%;
+        grid-column-gap: 2%!important;
+    }
+
+    .dropdown-container .dropdown {
+        top: 68px;
+        width: -webkit-fill-available;
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+
+    .tab.active {
+        box-shadow: 0 3px var(--oss) inset;
+    }
+    .control-bar .tab.active {
+        background: hsla(var(--oss-hsl), 0.1);
+        color: var(--oss);
+    }
+
+    h3, hr {
+        width: 100%;
+    }
+    .generic-input, .dropdown-wrapper, p {
+        width: 100%;
+    }
+    .block-generic {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .block-footer {
+        justify-content: flex-end;
+        padding-right: 24px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .block-footer .button:first-child {
+        margin-right: 6px;
+    }
+    .block-footer .button:nth-child(2) {
+        margin-right: 6px;
+    }
+
+    .toggle-wrapper {
+        display: flex;
+        align-items: center;
+        justify-items: flex-start;
+        padding: 9px 0 18px;
+        width: 100%;
+
+        p {
+            margin: 0;
+        }
+
+        .toggle {
+            margin-right: 20px;
+        }        
+    }
+}

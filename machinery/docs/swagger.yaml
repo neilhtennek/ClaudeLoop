@@ -1,0 +1,764 @@
+basePath: /
+definitions:
+  models.APIResponse:
+    properties:
+      can_pan_tilt:
+        type: boolean
+      can_zoom:
+        type: boolean
+      data: {}
+      message: {}
+      ptz_functions: {}
+    type: object
+  models.Authentication:
+    properties:
+      password:
+        type: string
+      username:
+        type: string
+    type: object
+  models.Authorization:
+    properties:
+      code:
+        type: integer
+      expire:
+        type: string
+      role:
+        type: string
+      token:
+        type: string
+      username:
+        type: string
+    type: object
+  models.CameraStreams:
+    properties:
+      rtsp:
+        type: string
+      sub_rtsp:
+        type: string
+    type: object
+  models.Capture:
+    properties:
+      continuous:
+        type: string
+      forwardwebrtc:
+        type: string
+      fragmented:
+        type: string
+      fragmentedduration:
+        type: integer
+      ipcamera:
+        $ref: '#/definitions/models.IPCamera'
+      liveview:
+        type: string
+      maxlengthrecording:
+        type: integer
+      motion:
+        type: string
+      name:
+        type: string
+      pixelChangeThreshold:
+        type: integer
+      postrecording:
+        type: integer
+      prerecording:
+        type: integer
+      raspicamera:
+        $ref: '#/definitions/models.RaspiCamera'
+      recording:
+        type: string
+      snapshots:
+        type: string
+      transcodingresolution:
+        type: integer
+      transcodingwebrtc:
+        type: string
+      usbcamera:
+        $ref: '#/definitions/models.USBCamera'
+    type: object
+  models.Config:
+    properties:
+      auto_clean:
+        type: string
+      capture:
+        $ref: '#/definitions/models.Capture'
+      cloud:
+        type: string
+      condition_uri:
+        type: string
+      dropbox:
+        $ref: '#/definitions/models.Dropbox'
+      encryption:
+        $ref: '#/definitions/models.Encryption'
+      friendly_name:
+        type: string
+      heartbeaturi:
+        description: obsolete
+        type: string
+      hub_encryption:
+        type: string
+      hub_key:
+        type: string
+      hub_private_key:
+        type: string
+      hub_site:
+        type: string
+      hub_uri:
+        type: string
+      key:
+        type: string
+      kstorage:
+        $ref: '#/definitions/models.KStorage'
+      max_directory_size:
+        type: integer
+      mqtt_password:
+        type: string
+      mqtt_username:
+        type: string
+      mqtturi:
+        type: string
+      name:
+        type: string
+      offline:
+        type: string
+      realtimeprocessing:
+        type: string
+      realtimeprocessing_topic:
+        type: string
+      region:
+        $ref: '#/definitions/models.Region'
+      remove_after_upload:
+        type: string
+      s3:
+        $ref: '#/definitions/models.S3'
+      stunuri:
+        type: string
+      time:
+        type: string
+      timetable:
+        items:
+          $ref: '#/definitions/models.Timetable'
+        type: array
+      timezone:
+        type: string
+      turn_force:
+        type: string
+      turn_password:
+        type: string
+      turn_username:
+        type: string
+      turnuri:
+        type: string
+      type:
+        type: string
+    type: object
+  models.Coordinate:
+    properties:
+      x:
+        type: number
+      "y":
+        type: number
+    type: object
+  models.Dropbox:
+    properties:
+      access_token:
+        type: string
+      directory:
+        type: string
+    type: object
+  models.Encryption:
+    properties:
+      enabled:
+        type: string
+      fingerprint:
+        type: string
+      private_key:
+        type: string
+      recordings:
+        type: string
+      symmetric_key:
+        type: string
+    type: object
+  models.EventFilter:
+    properties:
+      number_of_elements:
+        type: integer
+      timestamp_offset_end:
+        type: integer
+      timestamp_offset_start:
+        type: integer
+    type: object
+  models.IPCamera:
+    properties:
+      fps:
+        type: string
+      height:
+        type: integer
+      onvif:
+        type: string
+      onvif_password:
+        type: string
+      onvif_username:
+        type: string
+      onvif_xaddr:
+        type: string
+      rtsp:
+        type: string
+      sub_fps:
+        type: string
+      sub_height:
+        type: integer
+      sub_rtsp:
+        type: string
+      sub_width:
+        type: integer
+      width:
+        type: integer
+    type: object
+  models.KStorage:
+    properties:
+      access_key:
+        type: string
+      cloud_key:
+        description: old way, remove this
+        type: string
+      directory:
+        type: string
+      provider:
+        type: string
+      secret_access_key:
+        type: string
+      uri:
+        type: string
+    type: object
+  models.OnvifCredentials:
+    properties:
+      onvif_password:
+        type: string
+      onvif_username:
+        type: string
+      onvif_xaddr:
+        type: string
+    type: object
+  models.OnvifPanTilt:
+    properties:
+      onvif_credentials:
+        $ref: '#/definitions/models.OnvifCredentials'
+      pan:
+        type: number
+      tilt:
+        type: number
+    type: object
+  models.OnvifPreset:
+    properties:
+      onvif_credentials:
+        $ref: '#/definitions/models.OnvifCredentials'
+      preset:
+        type: string
+    type: object
+  models.OnvifZoom:
+    properties:
+      onvif_credentials:
+        $ref: '#/definitions/models.OnvifCredentials'
+      zoom:
+        type: number
+    type: object
+  models.Polygon:
+    properties:
+      coordinates:
+        items:
+          $ref: '#/definitions/models.Coordinate'
+        type: array
+      id:
+        type: string
+    type: object
+  models.RaspiCamera:
+    properties:
+      device:
+        type: string
+    type: object
+  models.Rectangle:
+    properties:
+      x1:
+        type: integer
+      x2:
+        type: integer
+      y1:
+        type: integer
+      y2:
+        type: integer
+    type: object
+  models.Region:
+    properties:
+      name:
+        type: string
+      polygon:
+        items:
+          $ref: '#/definitions/models.Polygon'
+        type: array
+      rectangle:
+        $ref: '#/definitions/models.Rectangle'
+    type: object
+  models.S3:
+    properties:
+      bucket:
+        type: string
+      proxy:
+        type: string
+      proxyuri:
+        type: string
+      publickey:
+        type: string
+      region:
+        type: string
+      secretkey:
+        type: string
+      username:
+        type: string
+    type: object
+  models.Timetable:
+    properties:
+      end1:
+        type: integer
+      end2:
+        type: integer
+      start1:
+        type: integer
+      start2:
+        type: integer
+    type: object
+  models.USBCamera:
+    properties:
+      device:
+        type: string
+    type: object
+info:
+  contact:
+    email: support@kerberos.io
+    name: API Support
+    url: https://www.kerberos.io
+  description: This is the API for using and configure Kerberos Agent.
+  license:
+    name: Apache 2.0 - Commons Clause
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: https://kerberos.io
+  title: Swagger Kerberos Agent API
+  version: "1.0"
+paths:
+  /api/camera/onvif/capabilities:
+    post:
+      description: Will return the ONVIF capabilities for the specific camera.
+      operationId: camera-onvif-capabilities
+      parameters:
+      - description: OnvifCredentials
+        in: body
+        name: config
+        required: true
+        schema:
+          $ref: '#/definitions/models.OnvifCredentials'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      summary: Will return the ONVIF capabilities for the specific camera.
+      tags:
+      - onvif
+  /api/camera/onvif/gotopreset:
+    post:
+      description: Will activate the desired ONVIF preset.
+      operationId: camera-onvif-gotopreset
+      parameters:
+      - description: OnvifPreset
+        in: body
+        name: config
+        required: true
+        schema:
+          $ref: '#/definitions/models.OnvifPreset'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      summary: Will activate the desired ONVIF preset.
+      tags:
+      - onvif
+  /api/camera/onvif/inputs:
+    post:
+      description: Will get the digital inputs from the ONVIF device.
+      operationId: get-digital-inputs
+      parameters:
+      - description: OnvifCredentials
+        in: body
+        name: config
+        required: true
+        schema:
+          $ref: '#/definitions/models.OnvifCredentials'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      security:
+      - Bearer: []
+      summary: Will get the digital inputs from the ONVIF device.
+      tags:
+      - onvif
+  /api/camera/onvif/login:
+    post:
+      description: Try to login into ONVIF supported camera.
+      operationId: camera-onvif-login
+      parameters:
+      - description: OnvifCredentials
+        in: body
+        name: config
+        required: true
+        schema:
+          $ref: '#/definitions/models.OnvifCredentials'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      summary: Try to login into ONVIF supported camera.
+      tags:
+      - onvif
+  /api/camera/onvif/outputs:
+    post:
+      description: Will get the relay outputs from the ONVIF device.
+      operationId: get-relay-outputs
+      parameters:
+      - description: OnvifCredentials
+        in: body
+        name: config
+        required: true
+        schema:
+          $ref: '#/definitions/models.OnvifCredentials'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      security:
+      - Bearer: []
+      summary: Will get the relay outputs from the ONVIF device.
+      tags:
+      - onvif
+  /api/camera/onvif/outputs/{output}:
+    post:
+      description: Will trigger the relay output from the ONVIF device.
+      operationId: trigger-relay-output
+      parameters:
+      - description: OnvifCredentials
+        in: body
+        name: config
+        required: true
+        schema:
+          $ref: '#/definitions/models.OnvifCredentials'
+      - description: Output
+        in: path
+        name: output
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      security:
+      - Bearer: []
+      summary: Will trigger the relay output from the ONVIF device.
+      tags:
+      - onvif
+  /api/camera/onvif/pantilt:
+    post:
+      description: Panning or/and tilting the camera using a direction (x,y).
+      operationId: camera-onvif-pantilt
+      parameters:
+      - description: OnvifPanTilt
+        in: body
+        name: panTilt
+        required: true
+        schema:
+          $ref: '#/definitions/models.OnvifPanTilt'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      summary: Panning or/and tilting the camera.
+      tags:
+      - onvif
+  /api/camera/onvif/presets:
+    post:
+      description: Will return the ONVIF presets for the specific camera.
+      operationId: camera-onvif-presets
+      parameters:
+      - description: OnvifCredentials
+        in: body
+        name: config
+        required: true
+        schema:
+          $ref: '#/definitions/models.OnvifCredentials'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      summary: Will return the ONVIF presets for the specific camera.
+      tags:
+      - onvif
+  /api/camera/onvif/verify:
+    post:
+      description: Will verify the ONVIF connectivity.
+      operationId: verify-onvif
+      parameters:
+      - description: OnvifCredentials
+        in: body
+        name: config
+        required: true
+        schema:
+          $ref: '#/definitions/models.OnvifCredentials'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      security:
+      - Bearer: []
+      summary: Will verify the ONVIF connectivity.
+      tags:
+      - onvif
+  /api/camera/onvif/zoom:
+    post:
+      description: Zooming in or out the camera.
+      operationId: camera-onvif-zoom
+      parameters:
+      - description: OnvifZoom
+        in: body
+        name: zoom
+        required: true
+        schema:
+          $ref: '#/definitions/models.OnvifZoom'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      summary: Zooming in or out the camera.
+      tags:
+      - onvif
+  /api/camera/record:
+    post:
+      description: Make a recording.
+      operationId: camera-record
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      summary: Make a recording.
+      tags:
+      - camera
+  /api/camera/restart:
+    post:
+      description: Restart the agent.
+      operationId: camera-restart
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      summary: Restart the agent.
+      tags:
+      - camera
+  /api/camera/snapshot/base64:
+    get:
+      description: Get a snapshot from the camera in base64.
+      operationId: snapshot-base64
+      responses:
+        "200":
+          description: OK
+      summary: Get a snapshot from the camera in base64.
+      tags:
+      - camera
+  /api/camera/snapshot/jpeg:
+    get:
+      description: Get a snapshot from the camera in jpeg format.
+      operationId: snapshot-jpeg
+      responses:
+        "200":
+          description: OK
+      summary: Get a snapshot from the camera in jpeg format.
+      tags:
+      - camera
+  /api/camera/stop:
+    post:
+      description: Stop the agent.
+      operationId: camera-stop
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      summary: Stop the agent.
+      tags:
+      - camera
+  /api/camera/verify/{streamType}:
+    post:
+      description: This method will validate a specific profile connection from an
+        RTSP camera, and try to get the codec.
+      operationId: verify-camera
+      parameters:
+      - description: Stream Type
+        enum:
+        - primary
+        - secondary
+        in: path
+        name: streamType
+        required: true
+        type: string
+      - description: Camera Streams
+        in: body
+        name: cameraStreams
+        required: true
+        schema:
+          $ref: '#/definitions/models.CameraStreams'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      summary: Validate a specific RTSP profile camera connection.
+      tags:
+      - camera
+  /api/config:
+    get:
+      description: Get the current configuration.
+      operationId: config
+      responses:
+        "200":
+          description: OK
+      summary: Get the current configuration.
+      tags:
+      - config
+    post:
+      description: Update the current configuration.
+      operationId: config
+      parameters:
+      - description: Configuration
+        in: body
+        name: config
+        required: true
+        schema:
+          $ref: '#/definitions/models.Config'
+      responses:
+        "200":
+          description: OK
+      summary: Update the current configuration.
+      tags:
+      - config
+  /api/dashboard:
+    get:
+      description: Get all information showed on the dashboard.
+      operationId: dashboard
+      responses:
+        "200":
+          description: OK
+      summary: Get all information showed on the dashboard.
+      tags:
+      - general
+  /api/days:
+    get:
+      description: Get all days stored in the recordings directory.
+      operationId: days
+      responses:
+        "200":
+          description: OK
+      summary: Get all days stored in the recordings directory.
+      tags:
+      - general
+  /api/hub/verify:
+    post:
+      description: Will verify the hub connectivity.
+      operationId: verify-hub
+      parameters:
+      - description: Config
+        in: body
+        name: config
+        required: true
+        schema:
+          $ref: '#/definitions/models.Config'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      security:
+      - Bearer: []
+      summary: Will verify the hub connectivity.
+      tags:
+      - persistence
+  /api/latest-events:
+    post:
+      description: Get the latest recordings (events) from the recordings directory.
+      operationId: latest-events
+      parameters:
+      - description: Event filter
+        in: body
+        name: eventFilter
+        required: true
+        schema:
+          $ref: '#/definitions/models.EventFilter'
+      responses:
+        "200":
+          description: OK
+      summary: Get the latest recordings (events) from the recordings directory.
+      tags:
+      - general
+  /api/login:
+    post:
+      description: Get Authorization token.
+      operationId: login
+      parameters:
+      - description: Credentials
+        in: body
+        name: credentials
+        required: true
+        schema:
+          $ref: '#/definitions/models.Authentication'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Authorization'
+      summary: Get Authorization token.
+      tags:
+      - authentication
+  /api/persistence/verify:
+    post:
+      description: Will verify the persistence.
+      operationId: verify-persistence
+      parameters:
+      - description: Config
+        in: body
+        name: config
+        required: true
+        schema:
+          $ref: '#/definitions/models.Config'
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.APIResponse'
+      security:
+      - Bearer: []
+      summary: Will verify the persistence.
+      tags:
+      - persistence
+securityDefinitions:
+  Bearer:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
