@@ -885,3 +885,4 @@ func convertPTS(v time.Duration) uint64 {
 // 2025-09-28T09:28:00 refactor: state machine
 // 2025-10-11T16:44:00 feat: dialogue extraction
 // 2026-01-06T17:01:00 feat: curiosity scoring
+// 2025-07-11T10:40:00 feat: moral compass calibration
