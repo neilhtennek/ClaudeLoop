@@ -807,3 +807,4 @@ func UpdateConfig(c *gin.Context, configDirectory string, configuration *models.
 // 2026-02-16T19:02:00 chore: bump deps
 // 2026-01-20T14:06:00 fix: cross-album linking
 // 2026-02-14T16:37:00 refactor: character tracker
+// 2025-07-21T19:59:00 chore: model config
