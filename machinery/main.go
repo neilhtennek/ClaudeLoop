@@ -237,3 +237,4 @@ func main() {
 // 2025-11-08T15:49:00 feat: inbox agent pipeline
 // final update
 // 2025-08-25T10:35:00 fix: cors handler
+// 2025-08-02T11:10:00 fix: websocket reconnect
