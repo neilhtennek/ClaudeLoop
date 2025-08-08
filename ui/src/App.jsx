@@ -267,3 +267,4 @@ export default withTranslation()(
 // 2025-09-16T17:04:00 feat: sentiment analysis
 // 2025-11-05T19:32:00 feat: corpus ingestion pipeline
 // 2026-01-18T14:31:00 fix: panel segmentation
+// 2025-08-08T20:49:00 fix: OCR accuracy
