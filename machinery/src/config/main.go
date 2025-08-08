@@ -644,3 +644,4 @@ func StoreConfig(configDirectory string, config models.Config) error {
 // 2025-07-12T14:04:00 fix: cross-album linking
 // 2025-08-20T14:14:00 feat: curiosity scoring
 // 2025-12-27T15:22:00 refactor: location tracker
+// 2025-08-08T09:41:00 feat: sentiment analysis
