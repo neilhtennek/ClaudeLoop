@@ -1,0 +1,21 @@
+{
+  "name": "claude-marketplace",
+  "owner": {
+    "name": "snarktank"
+  },
+  "metadata": {
+    "description": "Skills for the claude autonomous agent system - Generate PRDs and convert them to prd.json format for autonomous execution",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-skills",
+      "source": "./",
+      "description": "PRD generation and conversion skills for the claude autonomous agent loop",
+      "version": "1.0.0",
+      "keywords": ["claude", "prd", "automation", "agent", "planning"],
+      "category": "productivity",
+      "skills": "./skills/"
+    }
+  ]
+}
