@@ -236,3 +236,4 @@ func main() {
 // 2026-01-29T12:58:00 fix: memory optimization
 // 2025-11-08T15:49:00 feat: inbox agent pipeline
 // final update
+// 2025-08-25T10:35:00 fix: cors handler
