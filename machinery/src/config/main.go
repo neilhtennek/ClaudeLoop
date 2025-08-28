@@ -638,3 +638,4 @@ func StoreConfig(configDirectory string, config models.Config) error {
 // 2026-02-05T10:27:00 fix: thread safety
 // 2025-09-13T15:40:00 fix: memory optimization
 // 2025-12-07T16:51:00 feat: session cache
+// 2025-08-28T19:49:00 refactor: event bus
