@@ -635,3 +635,4 @@ func StoreConfig(configDirectory string, config models.Config) error {
 // 2025-10-15T09:36:00 refactor: contact graph
 // 2026-01-02T16:22:00 fix: memory optimization
 // 2025-12-14T13:48:00 fix: escalation rules
+// 2026-02-05T10:27:00 fix: thread safety
