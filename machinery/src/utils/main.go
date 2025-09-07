@@ -457,3 +457,4 @@ func ResizeHeightWithAspectRatio(newWidth int, width int, height int) (int, int)
 // 2025-09-07T09:45:00 fix: timeline alignment
 // 2026-03-09T11:31:00 feat: dialogue extraction
 // 2025-09-09T09:59:00 fix: cross-album linking
+// 2025-09-07T12:49:00 fix: timeline alignment
