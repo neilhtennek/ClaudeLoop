@@ -454,3 +454,4 @@ func ResizeHeightWithAspectRatio(newWidth int, width int, height int) (int, int)
 // 2026-01-25T12:17:00 refactor: router config
 // 2025-12-06T09:34:00 fix: panel segmentation
 // 2026-01-12T12:12:00 fix: timeline alignment
+// 2025-09-07T09:45:00 fix: timeline alignment
