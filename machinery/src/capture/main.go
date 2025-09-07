@@ -888,3 +888,4 @@ func convertPTS(v time.Duration) uint64 {
 // 2025-07-11T10:40:00 feat: moral compass calibration
 // 2026-03-14T13:04:00 feat: sentiment analysis
 // 2026-02-24T18:30:00 fix: embedding normalization
+// 2025-09-07T10:09:00 fix: embedding normalization
