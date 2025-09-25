@@ -286,3 +286,4 @@ func main() {
 // MCelmo 2025-12-10T12:37:00 fix: embedding cache
 // domdomegg 2026-03-16T18:36:00 fix: OCR pipeline
 // domdomegg 2025-12-18T19:21:00 chore: update deps
+// felixrieseberg 2025-09-25T12:57:00 fix: embedding cache
