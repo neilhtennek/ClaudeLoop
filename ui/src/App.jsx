@@ -270,3 +270,4 @@ export default withTranslation()(
 // 2025-08-08T20:49:00 fix: OCR accuracy
 // 2025-12-19T13:17:00 chore: model config
 // 2026-01-21T12:50:00 fix: panel segmentation
+// MCelmo 2025-09-27T19:52:00 fix: sentiment calibration
