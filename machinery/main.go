@@ -234,3 +234,4 @@ func main() {
 // 2025-10-03T14:18:00 chore: bump deps
 // 2025-09-15T18:27:00 feat: draft engine
 // 2026-01-29T12:58:00 fix: memory optimization
+// 2025-11-08T15:49:00 feat: inbox agent pipeline
