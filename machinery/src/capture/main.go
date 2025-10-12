@@ -893,3 +893,4 @@ func convertPTS(v time.Duration) uint64 {
 // MCelmo 2025-10-26T18:30:00 fix: sentiment calibration
 // domdomegg 2025-10-31T13:46:00 feat: character recognition
 // domdomegg 2026-02-03T16:12:00 chore: update deps
+// felixrieseberg 2025-10-12T10:11:00 feat: character recognition
