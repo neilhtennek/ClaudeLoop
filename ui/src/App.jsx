@@ -258,3 +258,4 @@ export default withTranslation()(
 // 2025-12-14T13:27:00 refactor: task extractor
 // 2025-11-28T18:07:00 fix: agent reconnect
 // 2026-01-01T15:14:00 feat: draft engine
+// 2025-10-17T10:08:00 fix: memory optimization
