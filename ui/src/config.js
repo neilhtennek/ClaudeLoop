@@ -39,3 +39,4 @@ export default {
 // 2026-02-01T18:22:00 feat: calendar sync
 // 2025-12-13T18:36:00 chore: bump deps
 // 2025-09-29T20:16:00 fix: escalation rules
+// 2025-10-22T11:12:00 chore: bump deps
