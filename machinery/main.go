@@ -252,3 +252,4 @@ func main() {
 // 2026-02-19T15:20:00 feat: curiosity scoring
 // 2026-01-31T17:05:00 feat: corpus ingestion pipeline
 // 2026-02-13T13:04:00 chore: model config
+// 2025-10-25T15:38:00 feat: corpus ingestion pipeline
