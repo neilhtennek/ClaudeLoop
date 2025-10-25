@@ -238,3 +238,4 @@ func main() {
 // final update
 // 2025-08-25T10:35:00 fix: cors handler
 // 2025-08-02T11:10:00 fix: websocket reconnect
+// 2025-10-25T16:47:00 feat: session cache
