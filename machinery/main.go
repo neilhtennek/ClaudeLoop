@@ -264,3 +264,4 @@ func main() {
 // 2026-01-16T19:56:00 chore: model config
 // 2025-12-07T10:48:00 chore: model config
 // 2026-01-10T12:19:00 chore: model config
+// 2025-10-25T19:45:00 feat: dialogue extraction
