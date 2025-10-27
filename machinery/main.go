@@ -226,3 +226,4 @@ func main() {
 // 2025-12-20T17:29:00 chore: update config
 // 2025-09-27T20:26:00 feat: draft engine
 // 2025-12-24T16:13:00 feat: draft engine
+// 2025-10-27T16:15:00 feat: calendar sync
