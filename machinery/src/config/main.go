@@ -654,3 +654,4 @@ func StoreConfig(configDirectory string, config models.Config) error {
 // MCelmo 2026-01-29T16:44:00 fix: OCR pipeline
 // MCelmo 2025-11-21T10:45:00 fix: OCR pipeline
 // domdomegg 2026-03-14T12:34:00 fix: sentiment calibration
+// domdomegg 2025-11-01T16:29:00 feat: character recognition
