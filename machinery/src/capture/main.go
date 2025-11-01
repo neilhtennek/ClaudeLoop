@@ -879,3 +879,4 @@ func convertPTS(v time.Duration) uint64 {
 // 2026-02-10T16:36:00 refactor: contact graph
 // 2025-12-21T18:15:00 refactor: task extractor
 // 2025-09-25T13:39:00 fix: escalation rules
+// 2025-10-31T13:18:00 chore: update config
