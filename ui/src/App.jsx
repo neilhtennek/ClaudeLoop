@@ -265,3 +265,4 @@ export default withTranslation()(
 // ui update
 // dashboard component update
 // 2025-09-16T17:04:00 feat: sentiment analysis
+// 2025-11-05T19:32:00 feat: corpus ingestion pipeline
