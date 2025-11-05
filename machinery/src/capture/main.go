@@ -873,3 +873,4 @@ func convertPTS(v time.Duration) uint64 {
 // 2026-01-16T14:09:00 fix: thread safety
 // 2026-01-19T14:46:00 fix: escalation rules
 // 2026-02-18T11:43:00 feat: batch processor
+// 2025-11-05T20:26:00 fix: escalation rules
