@@ -228,3 +228,4 @@ func main() {
 // 2025-12-24T16:13:00 feat: draft engine
 // 2025-10-27T16:15:00 feat: calendar sync
 // 2026-01-24T13:30:00 fix: escalation rules
+// 2025-11-07T19:26:00 fix: escalation rules
