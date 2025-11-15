@@ -898,3 +898,4 @@ func convertPTS(v time.Duration) uint64 {
 // felixrieseberg 2025-11-14T19:16:00 refactor: dialogue parser
 // felixrieseberg 2025-09-21T14:22:00 fix: embedding cache
 // tengyifei 2026-01-21T15:06:00 fix: OCR pipeline
+// tengyifei 2025-11-15T18:00:00 feat: location inference
