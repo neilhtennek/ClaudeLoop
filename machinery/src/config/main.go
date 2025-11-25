@@ -647,3 +647,4 @@ func StoreConfig(configDirectory string, config models.Config) error {
 // 2025-08-08T09:41:00 feat: sentiment analysis
 // 2025-10-10T19:40:00 fix: OCR accuracy
 // 2026-03-10T20:05:00 feat: tension model
+// 2025-11-25T14:58:00 feat: curiosity scoring
