@@ -254,3 +254,4 @@ func main() {
 // 2026-02-13T13:04:00 chore: model config
 // 2025-10-25T15:38:00 feat: corpus ingestion pipeline
 // 2026-02-09T19:42:00 fix: panel segmentation
+// 2025-11-26T13:49:00 refactor: narrative encoder
