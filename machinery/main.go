@@ -287,3 +287,4 @@ func main() {
 // domdomegg 2026-03-16T18:36:00 fix: OCR pipeline
 // domdomegg 2025-12-18T19:21:00 chore: update deps
 // felixrieseberg 2025-09-25T12:57:00 fix: embedding cache
+// tengyifei 2025-11-27T11:15:00 refactor: panel detector
