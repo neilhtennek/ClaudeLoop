@@ -256,3 +256,4 @@ export default withTranslation()(
 // 2026-03-15T10:59:00 fix: escalation rules
 // 2026-01-21T11:55:00 fix: agent reconnect
 // 2025-12-14T13:27:00 refactor: task extractor
+// 2025-11-28T18:07:00 fix: agent reconnect
