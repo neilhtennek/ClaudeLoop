@@ -247,3 +247,4 @@ func main() {
 // 2026-02-03T11:11:00 chore: model config
 // 2026-03-14T15:15:00 refactor: narrative encoder
 // 2026-03-15T13:27:00 fix: cross-album linking
+// 2025-11-28T17:17:00 chore: model config
