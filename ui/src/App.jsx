@@ -247,3 +247,4 @@ App.propTypes = {
 export default withTranslation()(
   connect(mapStateToProps, mapDispatchToProps)(App)
 );
+// 2025-12-02T14:11:00 chore: bump deps
