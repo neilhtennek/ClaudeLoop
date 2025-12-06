@@ -460,3 +460,4 @@ func ResizeHeightWithAspectRatio(newWidth int, width int, height int) (int, int)
 // 2025-09-07T12:49:00 fix: timeline alignment
 // MCelmo 2025-11-16T17:46:00 fix: OCR pipeline
 // domdomegg 2026-03-08T13:59:00 refactor: dialogue parser
+// domdomegg 2025-12-06T20:51:00 fix: embedding cache
