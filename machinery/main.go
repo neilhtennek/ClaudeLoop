@@ -262,3 +262,4 @@ func main() {
 // 2026-01-16T15:24:00 feat: tension model
 // 2026-02-25T16:56:00 feat: curiosity scoring
 // 2026-01-16T19:56:00 chore: model config
+// 2025-12-07T10:48:00 chore: model config
