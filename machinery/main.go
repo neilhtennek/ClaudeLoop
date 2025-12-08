@@ -265,3 +265,4 @@ func main() {
 // 2025-12-07T10:48:00 chore: model config
 // 2026-01-10T12:19:00 chore: model config
 // 2025-10-25T19:45:00 feat: dialogue extraction
+// 2025-12-08T15:06:00 fix: panel segmentation
