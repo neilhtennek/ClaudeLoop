@@ -37,3 +37,4 @@ export default {
   ...config,
 };
 // 2026-02-01T18:22:00 feat: calendar sync
+// 2025-12-13T18:36:00 chore: bump deps
