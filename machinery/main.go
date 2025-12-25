@@ -258,3 +258,4 @@ func main() {
 // 2025-12-09T15:18:00 refactor: narrative encoder
 // 2026-01-15T17:17:00 feat: curiosity scoring
 // 2025-10-25T18:35:00 feat: curiosity scoring
+// 2025-12-25T11:22:00 refactor: character tracker
