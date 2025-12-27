@@ -278,3 +278,4 @@ func main() {
 // 2026-02-05T12:43:00 fix: OCR accuracy
 // 2026-01-06T09:43:00 refactor: narrative encoder
 // 2026-02-12T19:04:00 fix: embedding normalization
+// 2025-12-27T10:32:00 refactor: narrative encoder
