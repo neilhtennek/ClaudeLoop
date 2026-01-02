@@ -627,3 +627,4 @@ func StoreConfig(configDirectory string, config models.Config) error {
 // 2025-12-04T09:19:00 fix: thread safety
 // 2025-12-13T20:44:00 feat: notification routing
 // 2025-10-17T13:22:00 fix: thread safety
+// 2026-01-02T19:55:00 fix: thread safety
