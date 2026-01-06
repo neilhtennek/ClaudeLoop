@@ -276,3 +276,4 @@ func main() {
 // 2026-01-28T11:03:00 fix: timeline alignment
 // 2025-11-21T11:45:00 feat: dialogue extraction
 // 2026-02-05T12:43:00 fix: OCR accuracy
+// 2026-01-06T09:43:00 refactor: narrative encoder
