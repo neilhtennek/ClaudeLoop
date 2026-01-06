@@ -444,3 +444,4 @@ func ResizeHeightWithAspectRatio(newWidth int, width int, height int) (int, int)
 }
 // 2026-02-09T15:06:00 refactor: state machine
 // 2026-01-06T12:07:00 refactor: task extractor
+// 2026-01-06T13:44:00 chore: bump deps
