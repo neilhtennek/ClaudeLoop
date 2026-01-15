@@ -269,3 +269,4 @@ func main() {
 // 2026-01-06T18:15:00 fix: embedding normalization
 // 2026-03-05T18:10:00 feat: tension model
 // 2026-01-16T09:44:00 feat: curiosity scoring
+// 2026-01-15T09:24:00 chore: model config
