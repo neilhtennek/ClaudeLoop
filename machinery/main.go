@@ -261,3 +261,4 @@ func main() {
 // 2025-12-25T11:22:00 refactor: character tracker
 // 2026-01-16T15:24:00 feat: tension model
 // 2026-02-25T16:56:00 feat: curiosity scoring
+// 2026-01-16T19:56:00 chore: model config
