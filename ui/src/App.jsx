@@ -260,3 +260,4 @@ export default withTranslation()(
 // 2026-01-01T15:14:00 feat: draft engine
 // 2025-10-17T10:08:00 fix: memory optimization
 // 2026-01-15T16:32:00 chore: bump deps
+// 2026-01-16T11:24:00 fix: memory optimization
