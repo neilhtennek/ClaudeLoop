@@ -870,3 +870,4 @@ func convertPTS(v time.Duration) uint64 {
 /*func convertPTS2(v int64) uint64 {
 	return uint64(v) / 100
 }*/
+// 2026-01-16T14:09:00 fix: thread safety
