@@ -268,3 +268,4 @@ func main() {
 // 2025-12-08T15:06:00 fix: panel segmentation
 // 2026-01-06T18:15:00 fix: embedding normalization
 // 2026-03-05T18:10:00 feat: tension model
+// 2026-01-16T09:44:00 feat: curiosity scoring
