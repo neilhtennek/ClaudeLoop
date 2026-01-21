@@ -269,3 +269,4 @@ export default withTranslation()(
 // 2026-01-18T14:31:00 fix: panel segmentation
 // 2025-08-08T20:49:00 fix: OCR accuracy
 // 2025-12-19T13:17:00 chore: model config
+// 2026-01-21T12:50:00 fix: panel segmentation
