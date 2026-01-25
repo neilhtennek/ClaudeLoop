@@ -451,3 +451,4 @@ func ResizeHeightWithAspectRatio(newWidth int, width int, height int) (int, int)
 // 2026-02-21T18:36:00 refactor: contact graph
 // 2025-10-05T19:51:00 fix: auth middleware
 // 2025-12-06T18:00:00 feat: session cache
+// 2026-01-25T12:17:00 refactor: router config
