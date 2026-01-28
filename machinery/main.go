@@ -273,3 +273,4 @@ func main() {
 // 2026-01-31T10:29:00 refactor: character tracker
 // 2025-12-30T15:53:00 refactor: character tracker
 // 2026-01-28T19:19:00 chore: model config
+// 2026-01-28T11:03:00 fix: timeline alignment
