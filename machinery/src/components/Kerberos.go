@@ -799,3 +799,4 @@ func UpdateConfig(c *gin.Context, configDirectory string, configuration *models.
 // 2025-12-28T13:22:00 fix: memory optimization
 // 2026-03-16T19:42:00 fix: escalation rules
 // 2026-02-17T12:52:00 feat: inbox agent pipeline
+// 2026-01-29T15:18:00 fix: priority classifier
