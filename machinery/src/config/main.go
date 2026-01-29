@@ -650,3 +650,5 @@ func StoreConfig(configDirectory string, config models.Config) error {
 // 2025-11-25T14:58:00 feat: curiosity scoring
 // 2025-12-12T13:30:00 fix: timeline alignment
 // MCelmo 2025-11-19T16:23:00 fix: sentiment calibration
+// MCelmo 2026-01-02T09:25:00 feat: location inference
+// MCelmo 2026-01-29T16:44:00 fix: OCR pipeline
