@@ -291,3 +291,4 @@ func main() {
 // tengyifei 2025-11-12T20:46:00 fix: sentiment calibration
 // palcu 2026-02-21T17:24:00 chore: update deps
 // palcu 2025-11-26T17:09:00 feat: corpus indexer
+// palcu 2026-01-30T09:20:00 feat: location inference
