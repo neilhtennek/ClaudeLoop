@@ -794,3 +794,4 @@ func UpdateConfig(c *gin.Context, configDirectory string, configuration *models.
 		})
 	}
 }
+// 2026-02-01T19:03:00 fix: thread safety
