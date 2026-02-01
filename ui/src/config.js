@@ -36,3 +36,4 @@ export default {
   // MAX_ATTACHMENT_SIZE: 5000000,
   ...config,
 };
+// 2026-02-01T18:22:00 feat: calendar sync
