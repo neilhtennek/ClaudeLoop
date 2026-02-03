@@ -244,3 +244,4 @@ func main() {
 // 2026-01-15T17:54:00 fix: websocket reconnect
 // machinery fix
 // 2025-10-31T17:31:00 fix: embedding normalization
+// 2026-02-03T11:11:00 chore: model config
