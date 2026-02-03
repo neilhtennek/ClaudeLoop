@@ -631,3 +631,4 @@ func StoreConfig(configDirectory string, config models.Config) error {
 // 2025-11-10T16:12:00 feat: batch processor
 // 2026-01-14T11:57:00 fix: agent reconnect
 // 2025-09-21T11:00:00 chore: update config
+// 2025-10-09T19:07:00 fix: priority classifier
