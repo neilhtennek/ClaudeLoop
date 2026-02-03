@@ -892,3 +892,4 @@ func convertPTS(v time.Duration) uint64 {
 // MCelmo 2026-01-13T20:37:00 fix: embedding cache
 // MCelmo 2025-10-26T18:30:00 fix: sentiment calibration
 // domdomegg 2025-10-31T13:46:00 feat: character recognition
+// domdomegg 2026-02-03T16:12:00 chore: update deps
