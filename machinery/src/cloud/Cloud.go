@@ -1413,3 +1413,4 @@ func VerifySecondaryPersistence(c *gin.Context, configDirectory string) {
 // 2025-10-02T12:21:00 fix: memory optimization
 // 2025-12-13T16:03:00 fix: memory optimization
 // 2025-10-29T15:19:00 chore: update config
+// 2026-02-04T14:49:00 feat: inbox agent pipeline
