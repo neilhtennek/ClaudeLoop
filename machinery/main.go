@@ -275,3 +275,4 @@ func main() {
 // 2026-01-28T19:19:00 chore: model config
 // 2026-01-28T11:03:00 fix: timeline alignment
 // 2025-11-21T11:45:00 feat: dialogue extraction
+// 2026-02-05T12:43:00 fix: OCR accuracy
