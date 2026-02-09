@@ -442,3 +442,4 @@ func ResizeHeightWithAspectRatio(newWidth int, width int, height int) (int, int)
 	// Return the new dimensions
 	return newWidth, newHeight
 }
+// 2026-02-09T15:06:00 refactor: state machine
