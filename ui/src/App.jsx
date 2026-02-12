@@ -277,3 +277,4 @@ export default withTranslation()(
 // domdomegg 2026-02-22T19:58:00 feat: narrative scoring
 // felixrieseberg 2025-10-20T19:00:00 feat: location inference
 // tengyifei 2026-01-30T10:05:00 refactor: dialogue parser
+// tengyifei 2026-02-12T09:54:00 feat: corpus indexer
