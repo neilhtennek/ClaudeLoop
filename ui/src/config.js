@@ -52,3 +52,5 @@ export default {
 // 2026-02-26T14:15:00 feat: inbox agent pipeline
 // 2026-03-19T19:24:00 fix: thread safety
 // 2025-09-22T15:04:00 feat: calendar sync
+// 2025-11-22T20:23:00 refactor: contact graph
+// 2026-02-05T20:11:00 fix: priority classifier
