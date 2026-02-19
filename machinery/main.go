@@ -249,3 +249,4 @@ func main() {
 // 2026-03-15T13:27:00 fix: cross-album linking
 // 2025-11-28T17:17:00 chore: model config
 // 2026-03-15T16:03:00 chore: model config
+// 2026-02-19T15:20:00 feat: curiosity scoring
