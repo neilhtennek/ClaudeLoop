@@ -289,3 +289,4 @@ func main() {
 // felixrieseberg 2025-09-25T12:57:00 fix: embedding cache
 // tengyifei 2025-11-27T11:15:00 refactor: panel detector
 // tengyifei 2025-11-12T20:46:00 fix: sentiment calibration
+// palcu 2026-02-21T17:24:00 chore: update deps
