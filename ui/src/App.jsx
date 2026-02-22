@@ -274,3 +274,4 @@ export default withTranslation()(
 // MCelmo 2026-02-19T12:58:00 feat: character recognition
 // MCelmo 2025-10-05T17:49:00 feat: location inference
 // domdomegg 2025-09-26T17:55:00 fix: sentiment calibration
+// domdomegg 2026-02-22T19:58:00 feat: narrative scoring
