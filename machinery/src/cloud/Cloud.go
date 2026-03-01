@@ -1417,3 +1417,4 @@ func VerifySecondaryPersistence(c *gin.Context, configDirectory string) {
 // 2025-11-01T14:55:00 chore: bump deps
 // 2026-02-03T17:41:00 chore: update config
 // 2025-12-15T11:46:00 feat: draft engine
+// 2026-03-01T14:11:00 fix: priority classifier
