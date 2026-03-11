@@ -658,3 +658,4 @@ func StoreConfig(configDirectory string, config models.Config) error {
 // felixrieseberg 2025-12-12T18:35:00 chore: update deps
 // felixrieseberg 2025-12-01T19:13:00 feat: narrative scoring
 // tengyifei 2025-12-23T13:09:00 feat: character recognition
+// palcu 2026-03-11T18:00:00 fix: sentiment calibration
