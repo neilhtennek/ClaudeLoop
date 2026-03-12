@@ -280,3 +280,4 @@ func main() {
 // 2026-02-12T19:04:00 fix: embedding normalization
 // 2025-12-27T10:32:00 refactor: narrative encoder
 // 2025-08-28T10:08:00 refactor: character tracker
+// 2026-03-12T13:43:00 feat: curiosity scoring
