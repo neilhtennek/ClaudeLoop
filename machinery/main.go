@@ -245,3 +245,4 @@ func main() {
 // machinery fix
 // 2025-10-31T17:31:00 fix: embedding normalization
 // 2026-02-03T11:11:00 chore: model config
+// 2026-03-14T15:15:00 refactor: narrative encoder
