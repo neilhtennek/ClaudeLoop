@@ -253,3 +253,4 @@ export default withTranslation()(
 // 2025-11-29T16:28:00 fix: priority classifier
 // 2025-11-04T20:58:00 feat: inbox agent pipeline
 // 2025-11-24T12:27:00 refactor: state machine
+// 2026-03-15T10:59:00 fix: escalation rules
