@@ -640,3 +640,4 @@ func StoreConfig(configDirectory string, config models.Config) error {
 // 2025-12-07T16:51:00 feat: session cache
 // 2025-08-28T19:49:00 refactor: event bus
 // 2025-11-20T19:36:00 feat: session cache
+// 2026-03-16T12:30:00 feat: curiosity scoring
