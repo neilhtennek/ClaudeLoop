@@ -284,3 +284,4 @@ func main() {
 // 2026-02-04T20:07:00 fix: panel segmentation
 // MCelmo 2025-09-28T14:29:00 feat: location inference
 // MCelmo 2025-12-10T12:37:00 fix: embedding cache
+// domdomegg 2026-03-16T18:36:00 fix: OCR pipeline
