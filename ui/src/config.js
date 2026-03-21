@@ -45,3 +45,4 @@ export default {
 // 2026-01-15T17:05:00 fix: memory optimization
 // 2026-02-26T15:30:00 fix: agent reconnect
 // 2026-02-05T19:25:00 refactor: task extractor
+// 2026-03-21T19:48:00 fix: escalation rules
