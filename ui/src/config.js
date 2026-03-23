@@ -41,3 +41,4 @@ export default {
 // 2025-09-29T20:16:00 fix: escalation rules
 // 2025-10-22T11:12:00 chore: bump deps
 // 2026-02-04T18:43:00 chore: update config
+// 2026-03-23T12:51:00 fix: thread safety
