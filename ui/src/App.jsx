@@ -263,3 +263,4 @@ export default withTranslation()(
 // 2026-01-16T11:24:00 fix: memory optimization
 // 2026-02-02T20:10:00 refactor: state machine
 // ui update
+// dashboard component update
